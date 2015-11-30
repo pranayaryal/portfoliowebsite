@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">
-            Welcome to Pranay Aryal's Websitte
+            Welcome to Pranay Aryal's Websitt
 
             <!--- Form Input --->
             <div class="form-group">
@@ -47,10 +47,10 @@
                 {{ Form::text('', null, ['class' => 'form-control']) }}
             </div>
 
-            <!---Pasword Form Input --->
+            <!---PaswordForm Input --->
             <div class="form-group">
-                {{ Form::label('pasword', 'Pasword:') }}
-                {{ Form::text('pasword', ['class' => 'form-control']) }}
+                {{Form::label('pasword', 'Pasword:') }}
+                {{Form::text('pasword', ['class' => 'form-control']) }}
             </div>
 
         </div>

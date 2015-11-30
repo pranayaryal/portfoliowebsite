@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hello.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/hello.blade.php">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5558912">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.73816717">
+              <caret line="193" column="61" selection-start-line="193" selection-start-column="61" selection-end-line="193" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -44,15 +44,16 @@
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/MustBeSubscribed.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/Authorizable.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ActiveController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Operations.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/NewOperations.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/hello.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -175,7 +176,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,7 +264,7 @@
     <property name="SearchEverywhereHistoryKey" value="live template&#9;ACTION&#9;InsertLiveTemplate&#10;mustbe&#9;null&#9;null&#10;eventserviceprovider&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
@@ -321,27 +354,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4833837">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3897281">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6042296">
-          <caret line="225" column="40" selection-start-line="225" selection-start-column="40" selection-end-line="225" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -440,24 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27190334">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1490433">
           <caret line="340" column="9" selection-start-line="340" selection-start-column="9" selection-end-line="340" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4833837">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -507,13 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8678414">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3524229">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -709,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8187311">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state vertical-scroll-proportion="1.020141">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <marker date="1445358913000" expanded="false" signature="10:134" placeholder=" Laravel - A PHP Framework For Web Artisans ..." />
             <marker date="1445358913000" expanded="true" signature="140:600" placeholder="..." />
@@ -723,28 +714,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5639476">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.7784491">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
-            <marker date="1447945964643" expanded="true" signature="21:987" placeholder="..." />
-            <marker date="1447945964643" expanded="true" signature="32:854" placeholder="..." />
-            <marker date="1447945964643" expanded="true" signature="200:842" placeholder="..." />
-            <marker date="1447945964643" expanded="true" signature="225:270" placeholder="{...}" />
-            <marker date="1447945964643" expanded="true" signature="289:491" placeholder="{...}" />
-            <marker date="1447945964643" expanded="true" signature="516:644" placeholder="{...}" />
-            <marker date="1447945964643" expanded="true" signature="667:757" placeholder="{...}" />
-            <marker date="1447945964643" expanded="true" signature="778:826" placeholder="{...}" />
-            <marker date="1447945964643" expanded="true" signature="865:979" placeholder="..." />
-            <marker date="1447945964643" expanded="true" signature="897:967" placeholder="..." />
-            <marker date="1447945964643" expanded="true" signature="931:952" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="21:1510" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="32:854" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="200:842" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="225:270" placeholder="{...}" />
+            <marker date="1448913703656" expanded="true" signature="289:491" placeholder="{...}" />
+            <marker date="1448913703656" expanded="true" signature="516:644" placeholder="{...}" />
+            <marker date="1448913703656" expanded="true" signature="667:757" placeholder="{...}" />
+            <marker date="1448913703656" expanded="true" signature="778:826" placeholder="{...}" />
+            <marker date="1448913703656" expanded="true" signature="865:1502" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="897:1490" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="931:1475" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="1061:1207" placeholder="..." />
+            <marker date="1448913703656" expanded="true" signature="1294:1455" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10070494">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <marker date="1448913727065" expanded="false" signature="9:390" placeholder="..." />
+            <marker date="1448913727065" expanded="true" signature="409:463" placeholder="..." />
+            <marker date="1448913727065" expanded="true" signature="427:462" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/hello.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5558912">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.6646526">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <marker date="1448913815963" expanded="true" signature="21:1351" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="28:738" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="184:730" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="205:242" placeholder="{...}" />
+            <marker date="1448913815963" expanded="true" signature="257:431" placeholder="{...}" />
+            <marker date="1448913815963" expanded="true" signature="452:564" placeholder="{...}" />
+            <marker date="1448913815963" expanded="true" signature="583:661" placeholder="{...}" />
+            <marker date="1448913815963" expanded="true" signature="678:718" placeholder="{...}" />
+            <marker date="1448913815963" expanded="true" signature="745:1343" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="769:1335" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="795:1328" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="823:1316" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="941:1075" placeholder="..." />
+            <marker date="1448913815963" expanded="true" signature="1153:1300" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4531722">
+          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+          <folding>
+            <marker date="1448772877372" expanded="true" signature="97:5593" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="107:210" placeholder=" The application instance. ..." />
+            <marker date="1448772877372" expanded="true" signature="241:328" placeholder=" Indicates if loading of the provider is deferred. ..." />
+            <marker date="1448772877372" expanded="true" signature="369:443" placeholder=" The paths that should be published. ..." />
+            <marker date="1448772877372" expanded="true" signature="492:575" placeholder=" The paths that should be published by group. ..." />
+            <marker date="1448772877372" expanded="true" signature="628:774" placeholder=" Create a new service provider instance. ..." />
+            <marker date="1448772877372" expanded="true" signature="814:853" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="862:933" placeholder=" Register the service provider. ..." />
+            <marker date="1448772877372" expanded="true" signature="985:1145" placeholder=" Merge the given configuration with the existing configuration. ..." />
+            <marker date="1448772877372" expanded="true" signature="1199:1345" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="1354:1489" placeholder=" Register a view file namespace. ..." />
+            <marker date="1448772877372" expanded="true" signature="1547:1794" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="1648:1725" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="1803:1945" placeholder=" Register a translation file namespace. ..." />
+            <marker date="1448772877372" expanded="true" signature="2010:2089" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="2098:2252" placeholder=" Register paths to be published by the publish command. ..." />
+            <marker date="1448772877372" expanded="true" signature="2316:2837" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="2420:2474" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="2585:2830" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="2655:2721" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="2846:2976" placeholder=" Get the paths to publish. ..." />
+            <marker date="1448772877372" expanded="true" signature="3053:3860" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="3094:3341" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3191:3231" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3417:3477" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3555:3614" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3651:3683" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3768:3829" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="3869:3995" placeholder=" Register the package's custom Artisan commands. ..." />
+            <marker date="1448772877372" expanded="true" signature="4037:4550" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="4428:4542" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="4482:4541" placeholder="..." />
+            <marker date="1448772877372" expanded="true" signature="4559:4643" placeholder=" Get the services provided by the provider. ..." />
+            <marker date="1448772877372" expanded="true" signature="4676:4707" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="4716:4820" placeholder=" Get the events that trigger this service provider to register. ..." />
+            <marker date="1448772877372" expanded="true" signature="4849:4880" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="4889:4968" placeholder=" Determine if the provider is deferred. ..." />
+            <marker date="1448772877372" expanded="true" signature="5003:5044" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="5053:5155" placeholder=" Get a list of files that should be compiled for the package. ..." />
+            <marker date="1448772877372" expanded="true" signature="5195:5226" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="5235:5382" placeholder=" Dynamically handle missing method calls. ..." />
+            <marker date="1448772877372" expanded="true" signature="5433:5591" placeholder="{...}" />
+            <marker date="1448772877372" expanded="true" signature="5472:5501" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1445358913000" expanded="true" signature="122:402" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="132:208" placeholder=" Bootstrap any application services. ..." />
+            <marker date="1445358913000" expanded="true" signature="237:260" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="269:344" placeholder=" Register any application services. ..." />
+            <marker date="1445358913000" expanded="true" signature="377:400" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3222558">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1445358913000" expanded="false" signature="37:148" placeholder="..." />
+            <marker date="1445358913000" expanded="true" signature="200:1039" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="210:397" placeholder=" This namespace is applied to the controller routes in your routes file. ..." />
+            <marker date="1445358913000" expanded="true" signature="459:606" placeholder=" Define your route model bindings, pattern filters, etc. ..." />
+            <marker date="1445358913000" expanded="true" signature="649:704" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="713:843" placeholder=" Define the routes for the application. ..." />
+            <marker date="1445358913000" expanded="true" signature="885:1037" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="915:1029" placeholder="..." />
+            <marker date="1445358913000" expanded="true" signature="970:1028" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1445358913000" expanded="false" signature="37:175" placeholder="..." />
+            <marker date="1445358913000" expanded="true" signature="226:693" placeholder="{...}" />
+            <marker date="1445358913000" expanded="true" signature="236:315" placeholder=" The policy mappings for the application. ..." />
+            <marker date="1445358913000" expanded="true" signature="345:401" placeholder="..." />
+            <marker date="1445358913000" expanded="true" signature="412:579" placeholder=" Register any application authentication / authorization services. ..." />
+            <marker date="1445358913000" expanded="true" signature="626:691" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73816717">
+          <caret line="193" column="61" selection-start-line="193" selection-start-column="61" selection-end-line="193" selection-end-column="61" />
           <folding />
         </state>
       </provider>
