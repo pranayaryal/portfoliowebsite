@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">
-            elcome to Pranay Ayl nice
+            Weelcome to Pranay Ayl nice
 
 
         </div>
