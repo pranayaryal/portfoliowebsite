@@ -41,17 +41,6 @@
         <div class="title">
             Welcome to Pranay Aryal's Websitt
 
-            <!--- Form Input --->
-            <div class="form-group">
-                {{ Form::label('', ':') }}
-                {{ Form::text('', null, ['class' => 'form-control']) }}
-            </div>
-
-            <!---PaswordForm Input --->
-            <div class="form-group">
-                {{Form::label('pasword', 'Pasword:') }}
-                {{Form::text('pasword', ['class' => 'form-control']) }}
-            </div>
 
         </div>
 
