@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">
-            Welcome to Pranay Aryal's Websitt
+            Welcome to Pranay Aryal's Website which is nice
 
 
         </div>
