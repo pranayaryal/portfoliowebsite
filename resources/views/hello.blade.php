@@ -39,9 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">
-            Welcome oooooo Pranay Aryal nice
-
-
+		Hello how are you?
         </div>
 
     </div>
