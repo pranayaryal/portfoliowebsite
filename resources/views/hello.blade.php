@@ -17,9 +17,9 @@
             <b class="srt">Toggle</b>
           </span>
             <ul class="nav is-collapsed-mobile">
-                <li class="nav__item--current"><a href="#">Portfolio</a></li>
-                <li class="nav__item"><a href="about.html">About</a></li>
-                <li class="nav__item"><a href="contact.html">Contact</a></li>
+                <li class="nav__item--current"><a href="/">Portfolio</a></li>
+                <li class="nav__item"><a href="/about">About</a></li>
+                <li class="nav__item"><a href="/contact">Contact</a></li>
 
             </ul>
         </nav>
@@ -28,13 +28,6 @@
 
 
 
-
-<div class="grid">
-
-    <p>Hi I am a designer and a developer and I love making interactve web applications</p>
-    <p>I love creating visualizations</p>
-
-</div>
 <div class="grid">
     <div class="grid__col--6">
         <a href="http://pranayaryal.github.io/datavis" target="_blank">
