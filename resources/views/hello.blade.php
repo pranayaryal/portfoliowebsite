@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">
-		 Hello this is pranayaryal and how are you
+		 Hello this is
         </div>
 
     </div>
