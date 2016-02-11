@@ -19,8 +19,9 @@
 |
 */
 
-require __DIR__.'/../bootstrap/autoload.php';
+//require __DIR__.'/../bootstrap/autoload.php';
 
+$compiledPath = __DIR__.'/../vendor/compiled.php';
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
