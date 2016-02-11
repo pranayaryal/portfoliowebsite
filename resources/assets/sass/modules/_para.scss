@@ -1,0 +1,7 @@
+
+/*----------------For Grid Paragraph---------------------*/
+.para {
+  @extend %p;
+  margin-top: em(0px);
+  padding-top: em(2px);
+}
