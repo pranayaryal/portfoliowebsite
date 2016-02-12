@@ -3,5 +3,8 @@
 .para {
   @extend %p;
   margin-top: em(0px);
-  padding-top: em(2px);
+  padding-top: em(0px);
+    @include mq(small){
+      margin-top:em(0px);
+    }
 }

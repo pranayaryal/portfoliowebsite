@@ -12,7 +12,18 @@
 */
 
     Route::get('/', function () {
-        return view('hello');
+        return view('pages.home');
+    });
+    Route::get('/about', function () {
+        return view('pages.about');
+    });
+
+    Route::get('/contact', function () {
+        return view('pages.contact');
+    });
+
+    Route::get('/blog', function () {
+        return view('pages.blog');
     });
 
 
