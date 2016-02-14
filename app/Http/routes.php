@@ -30,4 +30,9 @@
         return view('pages.blog2');
     });
 
+    Route::get('/payments', function ()
+    {
+        return view('pages.payments');
+    });
+
 
