@@ -15,6 +15,7 @@
 
 
     <div class="grid">
+
         <div class="grid__col--3">
             <a href="http://pranayaryal.github.io/datavis" target="_blank">
                 <img class="img--wrap" src="img/hospitalCharge.png" alt="sample image">

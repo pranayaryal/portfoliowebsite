@@ -15,7 +15,9 @@
 
 		@include m(dark){
 			@extend %hdln-prim;
+			margin-top: 0;
 			font-weight: $font-weight--bold;
+
 		}
 	}
 

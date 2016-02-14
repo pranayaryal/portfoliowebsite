@@ -86,7 +86,7 @@
 	}
 }
 
-// Grid Columns
+// Grid Columns. Returns the width of the columns
      
 @mixin g-columns {
   @for $i from 1 through $g-col-count {

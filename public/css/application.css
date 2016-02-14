@@ -360,39 +360,41 @@ footer .social-icon {
 }
 
 .panel,
-.panel--centered,
-.panel--image {
+.panel--centered {
   padding-top: 0;
 }
 
 @media (min-width: 769px) {
   .panel,
-  .panel--centered,
-  .panel--image {
+  .panel--centered {
     padding-bottom: 1.25em;
   }
 }
 
 .panel--padded,
-.panel--padded--centered {
+.panel--padded--centered,
+.panel--image {
   padding-top: 2.125em;
 }
 
 @media (min-width: 769px) {
   .panel--padded,
-  .panel--padded--centered {
+  .panel--padded--centered,
+  .panel--image {
     padding-top: 5em;
     padding-bottom: 2.125em;
   }
 }
 
 .panel--image {
+  padding-bottom: 0.875em;
   background: url("../img/goasunset.JPG") no-repeat center center fixed;
   background-size: cover;
 }
 
 .grid {
   width: 90%;
+  margin-top: 1.875em;
 }
 
 [class*="grid__col--"] > .grid {
@@ -520,7 +522,7 @@ h1,
   font-weight: 300;
   font-size: 2.625em;
   line-height: 1.0952380952;
-  margin-top: 1.6666666667em;
+  margin-top: 1.7142857143em;
 }
 
 h2,
@@ -616,6 +618,7 @@ h2,
 }
 
 .headline-primary--dark {
+  margin-top: 0;
   font-weight: 700;
 }
 
@@ -743,6 +746,10 @@ h2,
   height: 3px;
   background: #999da1;
   top: 4px;
+}
+
+.content {
+  margin-top: 20px;
 }
 
 @media (min-width: 1px) and (max-width: 768px) {
