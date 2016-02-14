@@ -5,7 +5,7 @@
 // Panel
 
 %panel-default {
-  padding-top: em(30px);
+  padding-top: 0;
   @include mq(medium) {
     padding-bottom: em(20px);
   }

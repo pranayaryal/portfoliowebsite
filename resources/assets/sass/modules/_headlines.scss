@@ -12,6 +12,11 @@
 			@extend %hdln-prim;
 			margin-bottom: 0;
 		}
+
+		@include m(dark){
+			@extend %hdln-prim;
+			font-weight: $font-weight--bold;
+		}
 	}
 
  	&-secondary {
@@ -22,7 +27,12 @@
 			@extend %hdln-sec;
 			margin-top: em(10px, 24px);
 	 		margin-bottom: em(54px, 24px);
-		}		
+		}
+
+		@include m(dark){
+			color: white;
+			font-weight: $font-weight--medium;
+		}
 	}
 
 }

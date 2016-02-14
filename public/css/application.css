@@ -19,6 +19,7 @@
 
 .panel--centered,
 .panel--padded--centered,
+.panel--image,
 [class^="btn--"] {
   text-align: center;
 }
@@ -359,13 +360,15 @@ footer .social-icon {
 }
 
 .panel,
-.panel--centered {
-  padding-top: 1.875em;
+.panel--centered,
+.panel--image {
+  padding-top: 0;
 }
 
 @media (min-width: 769px) {
   .panel,
-  .panel--centered {
+  .panel--centered,
+  .panel--image {
     padding-bottom: 1.25em;
   }
 }
@@ -381,6 +384,11 @@ footer .social-icon {
     padding-top: 5em;
     padding-bottom: 2.125em;
   }
+}
+
+.panel--image {
+  background: url("../img/goasunset.JPG") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .grid {
@@ -481,7 +489,7 @@ footer .social-icon {
 
 .nav__item a,
 .nav__item--current a {
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   font-size: 1.125em;
   display: block;
@@ -506,12 +514,13 @@ footer .social-icon {
 
 h1,
 .headline-primary,
-.headline-primary--grouped {
+.headline-primary--grouped,
+.headline-primary--dark {
   color: #525559;
   font-weight: 300;
   font-size: 2.625em;
   line-height: 1.0952380952;
-  margin-top: 0;
+  margin-top: 1.6666666667em;
 }
 
 h2,
@@ -606,6 +615,10 @@ h2,
   margin-bottom: 0;
 }
 
+.headline-primary--dark {
+  font-weight: 700;
+}
+
 .headline-secondary {
   margin-bottom: 0.9166666667em;
 }
@@ -613,6 +626,11 @@ h2,
 .headline-secondary--grouped {
   margin-top: 0.4166666667em;
   margin-bottom: 2.25em;
+}
+
+.headline-secondary--dark {
+  color: white;
+  font-weight: 400;
 }
 
 .form__label {
@@ -699,7 +717,7 @@ h2,
 }
 
 .nav__item a {
-  color: #797e83;
+  color: #0b0b0b;
 }
 
 .site-logo {

@@ -8,19 +8,26 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 <body>
-<div class="grid_">
-    <header class="grid__col--12 panel--padded--centered" role="banner">
-        <h1>Pranay Aryal</h1>
-        <h2>Front-end and Back-end Web Developer</h2>
-        <nav class="navbar" role="navigation">
+{{--<div class="grid">--}}
+
+    <header class="grid__col--12 panel--image" role="banner">
+        <div class="banner">
+            <h1 class="headline-primary--dark">Pranay Aryal</h1>
+            <h2 class="headline-secondary--dark">Front-end and Back-end Web Developer</h2>
+            <nav class="navbar" role="navigation">
           <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
             <b class="srt">Toggle</b>
           </span>
-            @yield('nav')
+                @yield('nav')
 
-        </nav>
+            </nav>
+        </div>
+
+
+
     </header>
-</div>
+
+{{--</div>--}}
 
 
 

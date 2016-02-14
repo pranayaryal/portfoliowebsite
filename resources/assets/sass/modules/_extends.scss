@@ -12,7 +12,7 @@
 }
 
 %nav-item-link {
-  font-weight: $font-weight--light;
+  font-weight: $font-weight--medium;
   text-align: center;
   font-size: em(18px);
   display: block;
@@ -37,7 +37,7 @@
   font-weight: $font-weight--light;
   font-size: em(42px);
   line-height: (46px/42px);
-  margin-top: 0;
+  margin-top: em(70px, 42px);
 }
 %hdln-sec {
   color: palette(grey, light);

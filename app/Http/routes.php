@@ -26,4 +26,8 @@
         return view('pages.blog');
     });
 
+    Route::get('/blog2', function () {
+        return view('pages.blog2');
+    });
+
 

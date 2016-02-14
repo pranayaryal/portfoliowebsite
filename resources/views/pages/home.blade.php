@@ -15,51 +15,60 @@
 
 
     <div class="grid">
-        <div class="grid__col--6">
+        <div class="grid__col--3">
             <a href="http://pranayaryal.github.io/datavis" target="_blank">
                 <img class="img--wrap" src="img/hospitalCharge.png" alt="sample image">
             </a>
             <p class="para">Hospital Charge Data(Interactive Visualization)(using d3.js)</p>
         </div>
-        <div class="grid__col--6">
+        <div class="grid__col--3">
             <a href="http://pranayaryal.github.io" target="_blank">
                 <img class="img--wrap" src="img/mortd3.png" alt="sample image">
             </a>
             <p class="para">Interactive Visualization using d3.js library</p>
         </div>
+        <div class="grid__col--3">
+            <a href="http://pranayaryal.github.io/drawing" target="_blank">
+                <img class="img--wrap" src="img/pic.png" alt="Avatar">
+            </a>
+            <p class="para">A Simple Sketching App (jquery)</p>
+        </div>
+        <div class="grid__col--3">
+            <a href="http://pranayaryal.github.io/HTMLforms" target="_blank">
+                <img class="img--wrap" src="img/form.png" alt="sample image">
+            </a>
+            <p class="para">A Simple HTML form</p>
+        </div>
 
 
     </div>
     <div class="grid">
-        <div class="grid__col--6">
+        <div class="grid__col--3">
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
             <p class="para">A Simple Sketching App (jquery)</p>
         </div>
 
-        <div class="grid__col--6">
-            <a href="http://pranayaryal.github.io/HTMLforms" target="_blank">
-                <img class="img--wrap" src="img/form.png" alt="sample image">
-            </a>
-            <p class="para">A Simple HTML form</p>
-        </div>
+
+        <div class="grid__col--3"></div>
     </div>
 
 
     <div class="grid">
-        <div class="grid__col--4">
+        <div class="grid__col--3">
             <img class="img--wrap" src="img/faces.jpg" alt="Avatar">
             <p class="para">A crayon sketch</p>
         </div>
-        <div class="grid__col--4">
+        <div class="grid__col--3">
             <img class="img--wrap" src="img/ships.jpg" alt="sample image">
             <p class="para">Ship </p>
         </div>
-        <div class="grid__col--4">
+        <div class="grid__col--3">
             <img class="img--wrap" src="img/car.jpg" alt="sample image">
             <p class="para">Animal Car</p>
         </div>
+        <div class="grid__col--3"></div>
     </div>
 
     <div class="grid">

@@ -13,7 +13,7 @@
 	@extend %nav-item-horz;
 	a {
 		@extend %nav-item-link;
-		color: palette(grey);
+		color: palette(black);
 		&:hover {
 			@extend %nav-item-on;
 		}
