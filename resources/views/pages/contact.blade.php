@@ -23,13 +23,13 @@
             <form class="form" action="/contact" method="post">
                 {{csrf_field()}}
                 <label class="form__label--hidden{{ $errors->has('name') ? ' has-error' : '' }}" for="name" >Name:</label>
-                <input class="form__input" type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Name">
+                <input class="form__input" type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Name" required>
 
                 <label class="form__label--hidden{{ $errors->has('email') ? ' has-error' : '' }}" for="email">Email:</label>
-                <input class="form__input" type="email" id="email" name="email" placeholder="email@website.com">
+                <input class="form__input" type="email" id="email" name="email" placeholder="email@website.com" required>
 
                 <label class="form__label--hidden{{ $errors->has('comments') ? ' has-error' : '' }}" for="msg">Comments:</label>
-                <textarea class="form__input" id="comments" name="comments" rows="7" placeholder="Comments"></textarea>
+                <textarea class="form__input" id="comments" name="comments" rows="7" placeholder="Comments" required></textarea>
 
                 <input class="btn--default" type="submit" value="Send">
             </form>
