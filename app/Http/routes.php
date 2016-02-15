@@ -22,6 +22,11 @@
         return view('pages.contact');
     });
 
+    Route::post('/contact', 'PagesController@contact');
+
+
+
+
     Route::get('/blog', function () {
         return view('pages.blog');
     });
