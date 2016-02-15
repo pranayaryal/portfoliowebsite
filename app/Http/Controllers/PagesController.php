@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\User;
+
+use Mail;
 
 use App\Http\Requests\ContactFormRequest;
 use App\Http\Controllers\Controller;
@@ -14,8 +17,8 @@ class PagesController extends Controller
 
     public function contact(Request $request)
     {
-        dd($request->all());
-        $user = User::findOrFail(3);
+
+//        $user = User::findOrFail(3);
 
         Mail::send('emails.contact',
             array(
