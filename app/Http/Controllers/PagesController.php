@@ -31,6 +31,6 @@ class PagesController extends Controller
                 $message->to('drpranayaryal@gmail.com', 'Admin')->subject('Feedback from a customer');
             });
 
-        return view('home');
+        return view('pages.home');
     }
 }
