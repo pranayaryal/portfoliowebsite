@@ -22,14 +22,14 @@
             <h4 class="grid">contact form</h4>
             <form class="form" action="/contact" method="post">
                 {{csrf_field()}}
-                <label class="form__label{{ $errors->has('name') ? ' has-error' : '' }}" for="name">Name:</label>
-                <input class="form__input" type="text" id="name" name="name" value="{{ old('name') }}">
+                <label class="form__label--hidden{{ $errors->has('name') ? ' has-error' : '' }}" for="name" >Name:</label>
+                <input class="form__input" type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Name">
 
-                <label class="form__label{{ $errors->has('email') ? ' has-error' : '' }}" for="email">Email:</label>
-                <input class="form__input" type="email" id="email" name="email">
+                <label class="form__label--hidden{{ $errors->has('email') ? ' has-error' : '' }}" for="email">Email:</label>
+                <input class="form__input" type="email" id="email" name="email" placeholder="email@website.com">
 
-                <label class="form__label{{ $errors->has('comments') ? ' has-error' : '' }}" for="msg">Comments:</label>
-                <textarea class="form__input" id="comments" name="comments" rows="7"></textarea>
+                <label class="form__label--hidden{{ $errors->has('comments') ? ' has-error' : '' }}" for="msg">Comments:</label>
+                <textarea class="form__input" id="comments" name="comments" rows="7" placeholder="Comments"></textarea>
 
                 <input class="btn--default" type="submit" value="Send">
             </form>
