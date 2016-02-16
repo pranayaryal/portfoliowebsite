@@ -1,5 +1,8 @@
 <?php
 
+
+use App\Http\Flash;
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -12,6 +15,7 @@
 */
 
     Route::get('/', function () {
+
         return view('pages.home');
     });
     Route::get('/about', function () {

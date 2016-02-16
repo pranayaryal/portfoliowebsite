@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/application.css">
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" href="/css/libs.css">
 </head>
 <body>
 
@@ -55,5 +56,9 @@
         $(this).next('.nav').toggleClass("is-collapsed-mobile");
     });
 </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/js/libs.js"></script>
+    @include('flash')
 </body>
 </html>

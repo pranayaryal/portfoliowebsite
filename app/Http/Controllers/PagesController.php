@@ -31,6 +31,8 @@ class PagesController extends Controller
                 $message->to('drpranayaryal@gmail.com', 'Admin')->subject('Feedback from a customer');
             });
 
+        flash()->overlay('Thanks', 'Your message was sent');
+
         return view('pages.home');
     }
 }
