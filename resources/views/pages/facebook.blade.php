@@ -11,7 +11,7 @@
         <p id="status">
         </p>
 
-        <a href="#" onclick="FB.logout()">Logout</a>
+        {{--<a href="#" onclick="FB.logout()">Logout</a>--}}
     </div>
 
 
