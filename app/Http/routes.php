@@ -29,7 +29,9 @@ use App\Http\Flash;
     Route::post('/contact', 'PagesController@contact');
 
 
+    Route::get('/facebook', 'FacebookController@fblogin');
 
+    
 
     Route::get('/blog', function () {
         return view('pages.blog');
@@ -44,9 +46,9 @@ use App\Http\Flash;
         return view('pages.payments');
     });
 
-   Route::get('/facebook', function ()
-   {
-       return view('pages.facebook');
-   });
+//   Route::get('/facebook', function ()
+//   {
+//       return view('pages.facebook');
+//   });
 
 
