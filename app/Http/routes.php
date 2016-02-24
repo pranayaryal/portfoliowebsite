@@ -46,7 +46,7 @@ use App\Http\Flash;
 
    Route::get('/facebook', function ()
    {
-       return view('pages.facebook');
+       return view('pages.payments');
    });
 
 
