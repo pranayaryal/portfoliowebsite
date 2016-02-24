@@ -3,7 +3,8 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="grid">
+
         <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
         </fb:login-button>
 
