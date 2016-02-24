@@ -10,6 +10,8 @@
 
         <p id="status">
         </p>
+
+        <a href="/logout" onclick="FB.logout();">Logout</a>
     </div>
 
 
