@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-require_once 'src/Facebook/autoload.php';
+use Facebook\Facebook;
 
 class FacebookController extends Controller
 {
 
     public function fblogin()
     {
-        $fb = new \Facebook\Facebook([
+        $fb = new Facebook([
             'app_id' => '483716931803149',
             'app_secret' => '5058209626562396a279334245effde4',
             'default_graph_version' => 'v2.5',
