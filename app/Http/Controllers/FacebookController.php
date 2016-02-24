@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-require_once __DIR__ . '/vendor/autoload.php';
+
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
