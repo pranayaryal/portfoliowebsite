@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+require_once 'src/Facebook/autoload.php';
 
 class FacebookController extends Controller
 {
