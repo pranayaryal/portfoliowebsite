@@ -35,4 +35,11 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => getenv('FACEBOOK_APP_ID'),
+        'client_secret' => getenv('FACEBOOK_APP_SECRET'),
+        'redirect' => 'http://pranayaryal.me/login/callback/facebook'
+
+    ],
+
 ];

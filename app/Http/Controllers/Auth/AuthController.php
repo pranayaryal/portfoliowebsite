@@ -7,6 +7,7 @@ use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Laravel\Socialite\Facades\Socialite;
 
 class AuthController extends Controller
 {
@@ -28,13 +29,16 @@ class AuthController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(Socialite $socialite)
     {
         $this->middleware('guest', ['except' => 'getLogout']);
+
+        $this->socialite = $socialite;
     }
 
     /**
      * Get a validator for an incoming registration request.
+     *
      *
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
@@ -61,5 +65,27 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    public function getSocialAuth($provider=null)
+    {
+        if (!config("services.$provider"))
+        {
+            abort('404');
+        }
+
+        return $this->socialite->with($provider)->redirect();
+    }
+
+    public function getSocialAuthCallback($provider=null)
+    {
+
+        if ($user = $this->socialite->with($provider)->user())
+        {
+            dd($user);
+        } else
+        {
+            return 'something went wrong';
+        }
     }
 }

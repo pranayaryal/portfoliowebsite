@@ -31,7 +31,7 @@ use App\Http\Flash;
 
     Route::get('/facebook', 'FacebookController@fblogin');
 
-    
+
 
     Route::get('/blog', function () {
         return view('pages.blog');
@@ -50,5 +50,10 @@ use App\Http\Flash;
 //   {
 //       return view('pages.facebook');
 //   });
+
+
+    //Social login
+    Route::get('/login/{provider?}', 'AuthController@getSocialAuth');
+    Route::get('/login/callback/{provider?}', 'AuthController@getSocialAuthCallback');
 
 
