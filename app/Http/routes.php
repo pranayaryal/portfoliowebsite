@@ -53,7 +53,7 @@ use App\Http\Flash;
 
 
     //Social login
-    Route::get('/login/{provider?}', 'AuthController@getSocialAuth');
-    Route::get('/login/callback/{provider?}', 'AuthController@getSocialAuthCallback');
+    Route::get('/login/{provider?}', 'FacebookController@getSocialAuth');
+    Route::get('/login/callback/{provider?}', 'FacebookController@getSocialAuthCallback');
 
 

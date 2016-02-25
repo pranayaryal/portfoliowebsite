@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Facebook\Facebook;
+use Laravel\Socialite\Facades\Socialite;
+
 
 class FacebookController extends Controller
 {
@@ -28,6 +30,28 @@ class FacebookController extends Controller
         $loginUrl = $helper->getLoginUrl('http://pranayaryal.me/login-callback.php', $permissions);
 
         return view ('pages.facebook1', compact('loginurl'));
+    }
+
+    public function getSocialAuth($provider=null)
+    {
+        if (!config("services.$provider"))
+        {
+            abort('404');
+        }
+
+        return Socialite::with($provider)->redirect();
+    }
+
+    public function getSocialAuthCallback($provider=null)
+    {
+
+        if ($user = Socialite::with($provider)->user())
+        {
+            dd($user);
+        } else
+        {
+            return 'something went wrong';
+        }
     }
 
 }
