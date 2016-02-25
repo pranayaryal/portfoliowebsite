@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 use Laravel\Socialite\Facades\Socialite;
-use Socialite;
+
 
 class AuthController extends Controller
 {
@@ -30,11 +30,11 @@ class AuthController extends Controller
      *
      * @return void
      */
-    public function __construct(Socialite $socialite)
+    public function __construct()
     {
         $this->middleware('guest', ['except' => 'getLogout']);
 
-        $this->socialite = $socialite;
+//        $this->socialite = $socialite;
     }
 
     /**
@@ -75,13 +75,13 @@ class AuthController extends Controller
             abort('404');
         }
 
-        return $this->socialite->with($provider)->redirect();
+        return Socialite::with($provider)->redirect();
     }
 
     public function getSocialAuthCallback($provider=null)
     {
 
-        if ($user = $this->socialite->with($provider)->user())
+        if ($user = Socialite::with($provider)->user())
         {
             dd($user);
         } else
