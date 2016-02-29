@@ -56,4 +56,7 @@ use App\Http\Flash;
     Route::get('/login/{provider?}', 'FacebookController@getSocialAuth');
     Route::get('/login/callback/{provider?}', 'FacebookController@getSocialAuthCallback');
 
+    Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
+    Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
+
 
