@@ -4,10 +4,11 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Validator;
+use Socialite;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
-use Laravel\Socialite\Facades\Socialite;
+
 
 
 class AuthController extends Controller
@@ -97,7 +98,7 @@ class AuthController extends Controller
      */
     public function redirectToProvider()
     {
-        return Socialite::driver('github')->redirect();
+        return Socialite::with('github')->redirect();
     }
 
     /**
@@ -107,10 +108,14 @@ class AuthController extends Controller
      */
     public function handleProviderCallback($provider=null)
     {
-        $user = Socialite::driver('github')->user();
+
+
+        $user = Socialite::with('github')->user();
 
         dd($user);
     }
+
+
 
 
 }

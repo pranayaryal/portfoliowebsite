@@ -14,10 +14,10 @@ use App\Http\Flash;
 |
 */
 
-    Route::get('/', function () {
-
-        return view('pages.home');
-    });
+//    Route::get('/', function () {
+//
+//        return view('pages.home');
+//    });
     Route::get('/about', function () {
         return view('pages.about');
     });
@@ -53,10 +53,24 @@ use App\Http\Flash;
 
 
     //Social login
-    Route::get('/login/{provider?}', 'FacebookController@getSocialAuth');
-    Route::get('/login/callback/{provider?}', 'FacebookController@getSocialAuthCallback');
+//    Route::get('/login/{provider?}', 'FacebookController@getSocialAuth');
+//    Route::get('/login/callback/{provider?}', 'FacebookController@getSocialAuthCallback');
+//
+//    Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
+//    Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
 
-    Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
-    Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
 
+
+
+    Route::get('/', function ()
+    {
+        if (Auth::check())
+        {
+            return 'Welcome back, ' . Auth::user()->username;
+        }
+
+        return 'Hi Guest. ' . link_to('login', 'Login with Github');
+    });
+
+    Route::get('login', 'AuthController@login');
 
