@@ -14,10 +14,10 @@ use App\Http\Flash;
 |
 */
 
-//    Route::get('/', function () {
-//
-//        return view('pages.home');
-//    });
+    Route::get('/', function () {
+
+        return view('pages.home');
+    });
     Route::get('/about', function () {
         return view('pages.about');
     });
@@ -62,15 +62,15 @@ use App\Http\Flash;
 
 
 
-    Route::get('/', function ()
-    {
-        if (Auth::check())
-        {
-            return 'Welcome back, ' . Auth::user()->username;
-        }
-
-        return 'Hi Guest. ' . link_to('login', 'Login with Github');
-    });
-
-    Route::get('login', 'AuthController@login');
+//    Route::get('/', function ()
+//    {
+//        if (Auth::check())
+//        {
+//            return 'Welcome back, ' . Auth::user()->username;
+//        }
+//
+//        return 'Hi Guest. ' . link_to('login', 'Login with Github');
+//    });
+//
+//    Route::get('login', 'AuthController@login');
 
