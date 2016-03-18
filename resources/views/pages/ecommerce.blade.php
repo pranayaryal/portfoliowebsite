@@ -13,7 +13,7 @@
 
 @section('content')
     <div class="grid">
-        <p>This section is under maintenance</p>
+
     </div>
 
 @stop

@@ -33,8 +33,8 @@ use App\Http\Flash;
 
 
 
-    Route::get('/blog', function () {
-        return view('pages.blog');
+    Route::get('/ecommerce', function () {
+        return view('pages.ecommerce');
     });
 
     Route::get('/blog2', function () {

@@ -24,10 +24,7 @@
         </div>
 
         <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io/sk8patches" target="_blank">
-                <img class="img--wrap" src="img/patches.png" alt="Avatar">
-            </a>
-            <p class="para">An ecommerce website</p>
+            
         </div>
         <div class="grid__col--4">
             <a href="http://pranayaryal.github.io/datavis" target="_blank">
