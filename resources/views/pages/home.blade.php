@@ -24,7 +24,7 @@
         </div>
 
         <div class="grid__col--4">
-            
+
         </div>
         <div class="grid__col--4">
             <a href="http://pranayaryal.github.io/datavis" target="_blank">

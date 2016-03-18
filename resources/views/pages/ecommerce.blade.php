@@ -13,7 +13,7 @@
 
 @section('content')
     <div class="grid">
-
+        <p>This is only for testing purposes</p>
     </div>
 
 @stop
