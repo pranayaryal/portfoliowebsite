@@ -44,8 +44,9 @@
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                console.log("hi");
-                $("#circles").append('<circle cx="25" cy="25" r="25" fill="purple"  />');
+                var circle = '<circle cx="25" cy="25" r="25" fill="purple"  />';
+                console.log(circle);
+                $("#circles").append(circle);
             });
         </script>
 
