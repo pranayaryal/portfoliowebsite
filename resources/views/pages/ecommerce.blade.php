@@ -33,7 +33,7 @@
             <a class="btn--success" href="#" id="cartadd">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
         </div>
-        <div class="grid__col--4">
+        <div class="grid__col--4" id="circles">
             <br><br>
             <svg width="50" height="50">
                 {{--<circle cx="25" cy="25" r="25" fill="purple"  />--}}
@@ -45,7 +45,7 @@
             $('#cartadd').click(function (e) {
                 e.preventDefault();
                 console.log("hi");
-                $("svg").append('<circle cx="25" cy="25" r="25" fill="purple"  />');
+                $("#circles").append('<circle cx="25" cy="25" r="25" fill="purple"  />');
             });
         </script>
 
