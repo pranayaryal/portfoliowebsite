@@ -42,10 +42,10 @@
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var cartnumber = $('.cartnumber').val;
+                var cartnumber = $('.cartnumber').val();
                 console.log(cartnumber);
 //                $('.cartnumber').v
-               
+
             });
         </script>
 
