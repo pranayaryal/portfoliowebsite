@@ -19,8 +19,10 @@
                 <p>Average Hospital Bill Payments By State(Data from data.gov)</p>
             </div>
         </div>
+        <hr>
 
         <div class="row">
+            <p>Mortality By Race and Disease(Data is from data.gov)</p>
             <div id="dashboard"></div>
         </div>
 
