@@ -20,6 +20,8 @@
             </div>
         </div>
         <hr>
+        <div class="row"></div>
+
 
         <div class="row">
             <h2>Mortality By Race and Disease(Data is from data.gov)</h2>
