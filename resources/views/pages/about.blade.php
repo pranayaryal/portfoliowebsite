@@ -50,4 +50,20 @@
 
         </div>
     </div>
+
+
+    <div class="grid">
+        <div class="grid__col--4">
+            <img class="img--wrap" src="img/faces.jpg" alt="Avatar">
+            <p class="para">A crayon sketch</p>
+        </div>
+        <div class="grid__col--4">
+            <img class="img--wrap" src="img/ships.jpg" alt="sample image">
+            <p class="para">Ship </p>
+        </div>
+        <div class="grid__col--4">
+            <img class="img--wrap" src="img/car.jpg" alt="sample image">
+            <p class="para">Animal Car</p>
+        </div>
+    </div>
 @stop
