@@ -27,7 +27,7 @@ var tip = d3.tip()
          " <strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>";
     })
 
-var svg = d3.select(".grid").append("svg")
+var svg = d3.select(".row").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
