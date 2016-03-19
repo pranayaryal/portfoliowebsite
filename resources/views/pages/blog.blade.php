@@ -14,7 +14,7 @@
 
 @section('content')
     <div class="grid">
-        <h2>Average Hospital Bill Payments By State</h2>
+        <p>Average Hospital Bill Payments By State</p>
     </div>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
