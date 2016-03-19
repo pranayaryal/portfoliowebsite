@@ -26,7 +26,12 @@
 
         </div>
         <div class="grid__col--4">
-
+            <p>Or this pretty HTML form I created?</p>
+            <a href="http://pranayaryal.github.io/drawing" target="_blank">
+                <img class="img--wrap" src="img/form.png" alt="Avatar">
+            </a>
+            <a class="btn--success" href="#" >Add to Cart</a>
+            <a class="btn--info" href="#" >Wish List</a>
         </div>
         <div class="grid__col--4">
         </div>
