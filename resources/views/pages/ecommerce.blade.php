@@ -20,7 +20,7 @@
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
             <a class="btn--success" href="#" >Add to Cart</a>
-            <a class="btn--info" href="#" >Wish List</a>
+            <a class="btn--info" href="#" >To Wish List</a>
 
 
 
