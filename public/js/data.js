@@ -23,8 +23,8 @@ var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-10, 0])
     .html(function(d) {
-        return "<strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>";
-        return "<strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>";
+        return "<strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>" +
+         "<strong>State:</strong> <span style='color:red'>" + "$" + d.state + "</span>";
     })
 
 var svg = d3.select(".grid").append("svg")
