@@ -24,6 +24,7 @@ var tip = d3.tip()
     .offset([-10, 0])
     .html(function(d) {
         return "<strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>";
+        return "<strong>Payments:</strong> <span style='color:red'>" + "$" + d.payments + "</span>";
     })
 
 var svg = d3.select(".grid").append("svg")
