@@ -20,7 +20,12 @@
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
         </div>
-        
+        <div class="grid__col--4">
+        </div>
+        <div class="grid__col--4">
+        </div>
+
+
     </div>
 
 @stop
