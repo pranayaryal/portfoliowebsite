@@ -44,7 +44,7 @@
         <script>
             $('#cartadd').click(function () {
                 console.log("hi");
-                $("circle").hide();
+                $("circle").after("circle");
             });
         </script>
 
