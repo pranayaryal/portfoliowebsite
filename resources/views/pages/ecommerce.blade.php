@@ -44,9 +44,9 @@
                 e.preventDefault();
                 var text = $.trim($('.cartnumber').text())
                 var cartno = parseInt(text);
-                console.log(cartno);
+                $('.cartnumber').html(++cartno);
 
-//                $('.cartnumber').text() = cartno + 1;
+//
 
             });
         </script>
