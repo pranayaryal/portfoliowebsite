@@ -15,6 +15,7 @@
 
 @section('content')
     <div class="grid">
+        <h1>I love creating visualizations</h1>
         <div class="row">
             <div class="bar-chart">
                 <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
