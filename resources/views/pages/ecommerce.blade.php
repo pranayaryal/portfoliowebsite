@@ -35,18 +35,17 @@
         </div>
         <div class="grid__col--4" id="circles">
             <br><br>
-            <svg width="50" height="50">
-                {{--<circle cx="25" cy="25" r="25" fill="purple"  />--}}
-            </svg>
+            <p class="cartnumber">1</p>
             <p>Item in cart</p>
         </div>
 
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var circle = '<circle cx="25" cy="25" r="25" fill="purple"  />';
-                console.log(circle);
-                $("#circles").append(circle);
+                var cartnumber = $('.cartnumber').val;
+                console.log(cartnumber);
+//                $('.cartnumber').v
+               
             });
         </script>
 
