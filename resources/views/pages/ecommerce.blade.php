@@ -30,16 +30,23 @@
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
-            <a class="btn--success" href="#" >Add to Cart</a>
+            <a class="btn--success" href="#" id="cartadd">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
         </div>
         <div class="grid__col--4">
             <br><br>
             <svg width="50" height="50">
-                <circle cx="25" cy="25" r="25" fill="purple" />
+                <circle cx="25" cy="25" r="25" fill="purple"  />
             </svg>
             <p>Item in cart</p>
         </div>
+
+        <script>
+            $('#cartadd').click(function () {
+                console.log("hi");
+                $("circle").hide();
+            });
+        </script>
 
 
     </div>
