@@ -37,14 +37,17 @@
             <br><br>
             <p class="cartnumber">1</p>
             <p>Item in cart</p>
+            <a class="btn--warning" href="#" id="checkout" >Checkout</a>
         </div>
 
         <script>
+            $('#checkout').hide();
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var text = $.trim($('.cartnumber').text())
+                var text = $.trim($('.cartnumber').text());
                 var cartno = parseInt(text);
                 $('.cartnumber').html(++cartno);
+                $('#checkout').show();
 
 //
 
