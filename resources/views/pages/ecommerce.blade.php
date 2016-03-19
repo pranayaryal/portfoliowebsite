@@ -42,9 +42,11 @@
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var cartno = $('.cartnumber').text();
+                var text = $.trim($('.cartnumber').text())
+                var cartno = parseInt(text);
                 console.log(cartno);
-//                $('.cartnumber').v
+
+//                $('.cartnumber').text() = cartno + 1;
 
             });
         </script>
