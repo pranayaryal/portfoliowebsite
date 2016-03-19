@@ -34,6 +34,7 @@
             <a class="btn--info" href="#" >Wish List</a>
         </div>
         <div class="grid__col--4">
+            <br><br>
             <svg width="50" height="50">
                 <circle cx="25" cy="25" r="25" fill="purple" />
             </svg>
