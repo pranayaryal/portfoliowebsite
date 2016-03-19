@@ -26,7 +26,7 @@
 
         </div>
         <div class="grid__col--4">
-            <p>Or this pretty HTML form I created?</p>
+            <p>Or this form I created?</p>
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
