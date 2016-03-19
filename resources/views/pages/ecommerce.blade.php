@@ -42,7 +42,7 @@
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var cartno = $('.cartnumber').val();
+                var cartno = $('.cartnumber').innerText();
                 console.log(cartno);
 //                $('.cartnumber').v
 
