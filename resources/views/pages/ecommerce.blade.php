@@ -14,7 +14,13 @@
 
 @section('content')
     <div class="grid">
-        <p>This is only for testing purposes</p>
+        <div class="grid__col--4">
+            <p>I created this drawing app and I want to sell it to you</p>
+            <a href="http://pranayaryal.github.io/drawing" target="_blank">
+                <img class="img--wrap" src="img/pic.png" alt="Avatar">
+            </a>
+        </div>
+        
     </div>
 
 @stop

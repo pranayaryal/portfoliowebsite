@@ -28,9 +28,7 @@
     <div class="grid">
 
         <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io/drawing" target="_blank">
-                <img class="img--wrap" src="img/pic.png" alt="Avatar">
-            </a>
+
             <p class="para">A Simple Sketching App (jquery)</p>
         </div>
 
