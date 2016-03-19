@@ -14,7 +14,7 @@
 
 @section('content')
     <div class="grid">
-        <div class="row">
+        <div class="bar-chart">
             <p>Average Hospital Bill Payments By State(Data from data.gov)</p>
         </div>
         <div class="row">
