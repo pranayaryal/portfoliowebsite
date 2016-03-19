@@ -1,5 +1,6 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+//These styles for the blog page having d3 bar chart
 .axis path,
 .axis line {
   fill: none;
@@ -54,4 +55,8 @@
 .source {
   margin-left: 200px;
   margin-top: 10px;
+}
+
+text {
+  font-size: 3px;
 }
