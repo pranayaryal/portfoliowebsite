@@ -42,7 +42,8 @@
         </div>
 
         <script>
-            $('#cartadd').click(function () {
+            $('#cartadd').click(function (e) {
+                e.preventDefault();
                 console.log("hi");
                 $("svg").append('<circle cx="25" cy="25" r="25" fill="purple"  />');
             });
