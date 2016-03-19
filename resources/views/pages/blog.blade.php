@@ -15,12 +15,9 @@
 @section('content')
     <div class="grid">
         <div class="row">
-            <div class="grid__col--4">
-                <div class="bar-chart">
-                    <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
-                </div>
+            <div class="bar-chart">
+                <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
             </div>
-
         </div>
         <hr>
         <br><br><br>
