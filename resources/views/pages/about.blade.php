@@ -53,6 +53,7 @@
 
 
     <div class="grid">
+        <p>Sometimes sketch</p>
         <div class="grid__col--4">
             <img class="img--wrap" src="img/faces.jpg" alt="Avatar">
             <p class="para">A crayon sketch</p>
