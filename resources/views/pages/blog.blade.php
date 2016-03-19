@@ -13,30 +13,7 @@
 @stop
 
 @section('content')
-    <div class="grid">
-        <div class="row">
-            <div class="bar-chart">
-                <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
-            </div>
-        </div>
-        <hr>
-        <br><br><br>
 
-
-        <div class="row">
-            <h2>Mortality By Race and Disease(Data is from data.gov)</h2>
-            <div id="dashboard"></div>
-        </div>
-
-
-    </div>
-
-
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-    <script src="/js/data.js"></script>
-    <script src="/js/dashboard.js"></script>
 
 
 @stop

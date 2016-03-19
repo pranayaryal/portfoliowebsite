@@ -14,44 +14,28 @@
 @stop
 
 @section('content')
-
-
     <div class="grid">
-        <div class="grid__col--4">
-            <a href="https://www.coolframes.com" target="_blank">
-                <img class="img--wrap" src="img/coolframes.png" alt="Avatar">
-            </a>
-            <p class="para">An ecommerce website</p>
+        <div class="row">
+            <div class="bar-chart">
+                <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
+            </div>
         </div>
+        <hr>
+        <br><br><br>
 
-    </div>
-    <div class="grid">
 
-        <div class="grid__col--4">
-
-            <p class="para">A Simple Sketching App (jquery)</p>
+        <div class="row">
+            <h2>Mortality By Race and Disease(Data is from data.gov)</h2>
+            <div id="dashboard"></div>
         </div>
 
 
     </div>
 
-    <div class="grid">
-        <div class="grid__col--4">
-            <a href="https://rpubs.com/probability" target="_blank">
-                <img class="img--wrap" src="img/rpubs.png" alt="sample image">
-            </a>
-            <p class="para">Some Statistics(R programming)</p>
-        </div>
-        <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io/HTMLforms" target="_blank">
-                <img class="img--wrap" src="img/form.png" alt="sample image">
-            </a>
-            <p class="para">A Simple HTML form</p>
-        </div>
-    </div>
 
-
-
-
-
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="/js/data.js"></script>
+    <script src="/js/dashboard.js"></script>
 @stop
