@@ -44,7 +44,7 @@
         <script>
             $('#cartadd').click(function () {
                 console.log("hi");
-                $("svg").append("<circle cx="25" cy="25" r="25" fill="purple"  />");
+                $("svg").append('<circle cx="25" cy="25" r="25" fill="purple"  />');
             });
         </script>
 
