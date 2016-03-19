@@ -19,9 +19,10 @@
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
+            <a class="btn--success" href="/about" >Add to Cart</a>
         </div>
         <div class="grid__col--4">
-            <a class="btn--success" href="/about" >Add to Cart</a>
+
         </div>
         <div class="grid__col--4">
         </div>
