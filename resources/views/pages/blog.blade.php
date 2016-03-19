@@ -17,9 +17,10 @@
         <div class="row">
             <p>Average Hospital Bill Payments By State(Data from data.gov)</p>
         </div>
-        <div id="dashboard"></div>
+
 
     </div>
+    <div id="dashboard"></div>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
