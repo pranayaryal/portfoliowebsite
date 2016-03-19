@@ -16,13 +16,13 @@
     <div class="grid">
         <div class="row">
             <div class="bar-chart">
-                <p>Average Hospital Bill Payments By State(Data from data.gov)</p>
+                <h2>Average Hospital Bill Payments By State(Data from data.gov)</h2>
             </div>
         </div>
         <hr>
 
         <div class="row">
-            <p>Mortality By Race and Disease(Data is from data.gov)</p>
+            <h2>Mortality By Race and Disease(Data is from data.gov)</h2>
             <div id="dashboard"></div>
         </div>
 
