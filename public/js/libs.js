@@ -1356,5 +1356,11 @@ function testAPI() {
         document.getElementById('status').innerHTML =
             'Thanks for logging in, ' + response.name + '!';
     });
+
+
 }
+
+FB.logout(function(response) {
+    // Person is now logged out
+});
 //# sourceMappingURL=libs.js.map
