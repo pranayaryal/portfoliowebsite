@@ -42,8 +42,8 @@
         <script>
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                var cartnumber = $('.cartnumber').val();
-                console.log(cartnumber);
+                var cartno = $('.cartnumber').val();
+                console.log(cartno);
 //                $('.cartnumber').v
 
             });
