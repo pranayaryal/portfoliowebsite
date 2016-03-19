@@ -24,35 +24,8 @@
             <p class="para">An ecommerce website</p>
         </div>
 
-        <div class="grid__col--4">
-
-        </div>
-        <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io/datavis" target="_blank">
-                <img class="img--wrap" src="img/hospitalCharge.png" alt="sample image">
-            </a>
-            <p class="para">Hospital Charge Data(Interactive Visualization)(using d3.js)</p>
-        </div>
-
-
-
-
-
     </div>
     <div class="grid">
-        <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io/sortedchart" target="_blank">
-                <img class="img--wrap" src="img/sortedchart.png" alt="Avatar">
-            </a>
-            <p class="para">This bar chart can be sorted(d3.js)</p>
-        </div>
-
-        <div class="grid__col--4">
-            <a href="http://pranayaryal.github.io" target="_blank">
-                <img class="img--wrap" src="img/mortd3.png" alt="sample image">
-            </a>
-            <p class="para">Interactive Visualization using d3.js library</p>
-        </div>
 
         <div class="grid__col--4">
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
