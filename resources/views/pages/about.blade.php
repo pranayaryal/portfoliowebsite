@@ -7,6 +7,7 @@
         <li class="nav__item"><a href="/contact">Contact</a></li>
         <li class="nav__item"><a href="/ecommerce">E-commerce</a></li>
         <li class="nav__item"><a href="/payments">Payments</a></li>
+        <li class="nav__item"><a href="/blog">Blog</a></li>
 
     </ul>
 @stop
