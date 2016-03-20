@@ -47,7 +47,7 @@
                     <p style="display: inline-block;">Price: $20</p>
                     <span style="display: inline-block;"> </span>
                     <span style="display: inline-block;">Qty</span>
-                    <input type="hidden" value="secondbutton" name="secondbutton">
+                    <input type="hidden" value="secondbutton" name="secondbutton" id="second">
                     <select style="display: inline-block;" >
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -66,15 +66,15 @@
 
 
         <script>
-//            $('#checkout').hide();
-//            $('#cartnumber').hide();
-//            $('#cartadd').click(function (e) {
-//                e.preventDefault();
-//                $('#checkoutform').submit();
 //
-////
+            $('#cartadd').click(function (e) {
+                e.preventDefault();
+                $('#second').value = $(this).data('data-value');
+                $('#checkoutform').submit();
+
 //
-//            });
+
+            });
         </script>
 
 
