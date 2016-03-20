@@ -19,15 +19,18 @@
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
-            <p style="display: inline-block;">Price: $50</p>
-            <span style="display: inline-block;"> </span>
-            <span style="display: inline-block;">Qty</span>
-            <select style="display: inline-block;">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="2">3</option>
-                <option value="4">4</option>
-            </select>
+            <div class="row">
+                <p style="display: inline-block;">Price: $50</p>
+                <span style="display: inline-block;"> </span>
+                <span style="display: inline-block;">Qty</span>
+                <select style="display: inline-block;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
             <a class="btn--success" href="#" >Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
 
