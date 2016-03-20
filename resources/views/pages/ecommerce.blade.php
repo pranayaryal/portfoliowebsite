@@ -19,6 +19,7 @@
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
+            <p>Price: $50</p>
             <a class="btn--success" href="#" >Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
 
@@ -30,7 +31,7 @@
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
-            <p>Price: 20</p>
+            <p>Price: $20</p>
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
         </div>
