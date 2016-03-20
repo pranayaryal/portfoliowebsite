@@ -52,7 +52,8 @@ use App\Http\Flash;
 
     Route::post('/cart/add', function (Request $request)
     {
-        var_dump("Congratulations you clicked " . $request['item']);
+        dd($request);
+//        var_dump("Congratulations you clicked " . $request['item']);
 
     });
 
