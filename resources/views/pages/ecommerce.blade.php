@@ -59,11 +59,6 @@
                 <button class="btn--info" href="#" >Wish List</button>
             </div>
             <div class="grid__col--4" id="circles">
-                <br><br>
-                <p class="cartnumber">0</p>
-
-                <p>Item in cart</p>
-                <a class="btn--warning" href="#" id="checkout" data-value=[]>Checkout</a>
 
             </div>
         </form>
@@ -73,13 +68,7 @@
             $('#checkout').hide();
             $('#cartnumber').hide();
             $('#cartadd').click(function (e) {
-                console.log($(this).data('id'));
                 e.preventDefault();
-                var text = $.trim($('.cartnumber').text());
-                var cartno = parseInt(text);
-                $('.cartnumber').html(++cartno);
-                $('#checkout').show();
-                $('.cartnumber').show();
                 $('#checkoutform').submit();
 
 //
