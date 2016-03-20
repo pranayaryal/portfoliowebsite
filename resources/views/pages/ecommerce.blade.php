@@ -24,7 +24,7 @@
                 <div class="row">
                     <p style="display: inline-block;">Price: $50</p>
                     <span style="display: inline-block;">Qty</span>
-                    <input type="hidden" value="hello">
+                    <input type="hidden" value="hello" name="hello">
                     <select style="display: inline-block;">
                         <option value="1">1</option>
                         <option value="2">2</option>
