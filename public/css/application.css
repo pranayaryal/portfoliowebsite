@@ -563,8 +563,7 @@ h2,
   cursor: pointer;
 }
 
-.para,
-.para--price {
+.para {
   font-size: 0.9375em;
   margin-top: 1.375em;
 }
@@ -608,10 +607,6 @@ h2,
   .para {
     margin-top: 0em;
   }
-}
-
-.para--price {
-  margin-left: 0.9375em;
 }
 
 .headline-primary {

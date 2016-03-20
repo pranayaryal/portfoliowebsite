@@ -7,8 +7,5 @@
     @include mq(small){
       margin-top:em(0px);
     }
-  @include m(price){
-    @extend %p;
-    margin-left: em(15px);
-  }
+  
   }
