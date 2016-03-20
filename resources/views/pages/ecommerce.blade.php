@@ -14,7 +14,7 @@
 
 @section('content')
     <div class="grid">
-        <form action="/cart/add" method="post" id=""checkoutform">
+        <form action="/cart/add" method="post" id="checkoutform">
             {{ csrf_field() }}
             <div class="grid__col--4">
                 <p>I created this drawing app. Do you want to buy it?</p>
