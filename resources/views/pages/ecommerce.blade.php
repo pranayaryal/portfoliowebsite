@@ -24,7 +24,7 @@
                 <div class="row">
                     <p style="display: inline-block;">Price: $50</p>
                     <span style="display: inline-block;">Qty</span>
-                    <input type="hidden" value="firstbutton" name="firstbutton">
+
                     <select style="display: inline-block;">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -33,7 +33,7 @@
                     </select>
                 </div>
 
-                <button class="btn--success" href="#">Add to Cart</button>
+                <button class="btn--success" href="#" id="firstitem" data-value="9">Add to Cart</button>
                 <button class="btn--info" href="#" >Wish List</button>
             </div>
 
@@ -47,7 +47,6 @@
                     <p style="display: inline-block;">Price: $20</p>
                     <span style="display: inline-block;"> </span>
                     <span style="display: inline-block;">Qty</span>
-                    <input type="hidden" value="secondbutton" name="secondbutton" id="second">
                     <select style="display: inline-block;" >
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -56,20 +55,21 @@
                     </select>
 
                 </div>
-                <button class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</button>
+                <button class="btn--success" href="#" id="seconditem" data-value="3">Add to Cart</button>
                 <button class="btn--info" href="#" >Wish List</button>
             </div>
             <div class="grid__col--4" id="circles">
 
             </div>
+            <input type="hidden" value="" name="item" id="item">
         </form>
 
 
         <script>
 //
-            $('#cartadd').click(function (e) {
+            $("#firstitem, #seconditem").click(function (e) {
                 e.preventDefault();
-                $('#second').value = "changedone";
+                $('#item').val($(this).data('value'));
                 $('#checkoutform').submit();
 
 //
