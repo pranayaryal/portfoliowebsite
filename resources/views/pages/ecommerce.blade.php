@@ -39,19 +39,15 @@
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
             <div class="row">
-                <div class="grid__col--2">
-                    <p>Price: $20</p>
-                </div>
-                <div class="grid__col--2">
-                    <span>Qty</span>
-                    <select>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="2">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </div>
 
+                <p>Price: $20</p>
+                <span>Qty</span>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="4">4</option>
+                </select>
             </div>
 
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
