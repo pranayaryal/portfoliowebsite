@@ -22,7 +22,7 @@
                     <img class="img--wrap" src="img/pic.png" alt="Avatar">
                 </a>
                 <div class="row">
-                    <span style="display: inline-block;">Price: $50</span>
+                    <p> style="display: inline-block;">Price: $50</p>
                     <span style="display: inline-block;">Qty</span>
                     <select style="display: inline-block;">
                         <option value="1">1</option>
@@ -43,7 +43,7 @@
                 </a>
                 <div class="row">
 
-                    <span style="display: inline-block;">Price: $20</span>
+                    <p style="display: inline-block;">Price: $20</p>
                     <span style="display: inline-block;"> </span>
                     <span style="display: inline-block;">Qty</span>
 
