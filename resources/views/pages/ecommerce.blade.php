@@ -65,15 +65,15 @@
 
 
         <script>
-            $('#checkout').hide();
-            $('#cartnumber').hide();
-            $('#cartadd').click(function (e) {
-                e.preventDefault();
-                $('#checkoutform').submit();
-
+//            $('#checkout').hide();
+//            $('#cartnumber').hide();
+//            $('#cartadd').click(function (e) {
+//                e.preventDefault();
+//                $('#checkoutform').submit();
 //
-
-            });
+////
+//
+//            });
         </script>
 
 
