@@ -43,7 +43,7 @@
                 </a>
                 <div class="row">
 
-                    <p style="display: inline-block;">Price: $20</p>
+                    <span style="display: inline-block;">Price: $20</span>
                     <span style="display: inline-block;"> </span>
                     <span style="display: inline-block;">Qty</span>
 
