@@ -32,7 +32,7 @@
                     </select>
                 </div>
 
-                <button class="btn--success" href="#" type="submit">Add to Cart</button>
+                <button class="btn--success" href="#">Add to Cart</button>
                 <button class="btn--info" href="#" >Wish List</button>
             </div>
 
@@ -55,7 +55,7 @@
                     </select>
 
                 </div>
-                <button class="btn--success" href="#" id="cartadd" data-value="3" type="submit">Add to Cart</button>
+                <button class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</button>
                 <button class="btn--info" href="#" >Wish List</button>
             </div>
             <div class="grid__col--4" id="circles">
