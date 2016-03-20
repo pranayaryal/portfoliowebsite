@@ -40,16 +40,16 @@
             </a>
             <div class="row">
 
-                <p>Price: $20</p>
+                <p style="display: inline-block;">Price: $20</p>
                 <span style="display: inline-block;">Qty</span>
-                <div class="select" style="display: inline-block;">
-                    <select style="display: inline-block;">
+
+                    <select style="display: inline-block;" >
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="2">3</option>
                         <option value="4">4</option>
                     </select>
-                </div>
+
 
             </div>
 
