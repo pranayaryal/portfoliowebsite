@@ -20,18 +20,16 @@
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
             <div class="row">
-                <p class="para" style="display: inline-block;">Price: $50</p>
+                <para class="para" style="display: inline-block;">Price: $50</para>
 
+                <span style="display: inline-block;">Qty</span>
+                <select style="display: inline-block;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="4">4</option>
+                </select>
 
-                <div>
-                    <span style="display: inline-block;">Qty</span>
-                    <select style="display: inline-block;">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="2">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </div>
 
             </div>
 
