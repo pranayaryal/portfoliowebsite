@@ -69,7 +69,7 @@
 //
             $('#cartadd').click(function (e) {
                 e.preventDefault();
-                $('#second').value = $(this).data('data-value');
+                $('#second').value = "changedone";
                 $('#checkoutform').submit();
 
 //
