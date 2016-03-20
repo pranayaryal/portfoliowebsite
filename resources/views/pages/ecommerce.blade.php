@@ -69,7 +69,8 @@
 //
             $("#firstitem, #seconditem").click(function (e) {
                 e.preventDefault();
-                $('#item').val($(this).data('value'));
+                var input = $('#item').val($(this).data('value'));
+                console.log(input);
                 $('#checkoutform').submit();
 
 //
