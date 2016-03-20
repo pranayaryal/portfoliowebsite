@@ -14,38 +14,40 @@
 
 @section('content')
     <div class="grid">
-        <div class="grid__col--4">
-            <p>I created this drawing app. Do you want to buy it?</p>
-            <a href="http://pranayaryal.github.io/drawing" target="_blank">
-                <img class="img--wrap" src="img/pic.png" alt="Avatar">
-            </a>
-            <div class="row">
-                <span style="display: inline-block;">Price: $50</span>
-                <span style="display: inline-block;">Qty</span>
-                <select style="display: inline-block;">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="2">3</option>
-                    <option value="4">4</option>
-                </select>
+        <form action="/cart/add" method="post">
+            {{ csrf_field() }}
+            <div class="grid__col--4">
+                <p>I created this drawing app. Do you want to buy it?</p>
+                <a href="http://pranayaryal.github.io/drawing" target="_blank">
+                    <img class="img--wrap" src="img/pic.png" alt="Avatar">
+                </a>
+                <div class="row">
+                    <span style="display: inline-block;">Price: $50</span>
+                    <span style="display: inline-block;">Qty</span>
+                    <select style="display: inline-block;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <a class="btn--success" href="#" >Add to Cart</a>
+                <a class="btn--info" href="#" >Wish List</a>
+
+
+
             </div>
+            <div class="grid__col--4">
+                <p>Or this form I created?</p>
+                <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
+                    <img class="img--wrap" src="img/form.png" alt="Avatar">
+                </a>
+                <div class="row">
 
-            <a class="btn--success" href="#" >Add to Cart</a>
-            <a class="btn--info" href="#" >Wish List</a>
-
-
-
-        </div>
-        <div class="grid__col--4">
-            <p>Or this form I created?</p>
-            <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
-                <img class="img--wrap" src="img/form.png" alt="Avatar">
-            </a>
-            <div class="row">
-
-                <p style="display: inline-block;">Price: $20</p>
-                <span style="display: inline-block;"> </span>
-                <span style="display: inline-block;">Qty</span>
+                    <p style="display: inline-block;">Price: $20</p>
+                    <span style="display: inline-block;"> </span>
+                    <span style="display: inline-block;">Qty</span>
 
                     <select style="display: inline-block;" >
                         <option value="1">1</option>
@@ -55,7 +57,9 @@
                     </select>
 
 
-            </div>
+                </div>
+        </form>
+
 
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
