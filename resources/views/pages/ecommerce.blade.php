@@ -14,8 +14,8 @@
 
 @section('content')
     <div class="grid">
-        <form action="/cart/add" method="post">
-            {{ csrf_field() }}
+        {{--<form action="/cart/add" method="post">--}}
+{{--            {{ csrf_field() }}--}}
             <div class="grid__col--4">
                 <p>I created this drawing app. Do you want to buy it?</p>
                 <a href="http://pranayaryal.github.io/drawing" target="_blank">
@@ -58,12 +58,9 @@
 
                 </div>
             </div>
-
-
-
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
-        </form>
+        {{--</form>--}}
         </div>
         <div class="grid__col--4" id="circles">
             <br><br>
