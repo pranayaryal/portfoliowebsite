@@ -52,7 +52,7 @@ use App\Http\Flash;
 
     Route::post('/cart/add', function ()
     {
-        dd('you are here');
+        dd(\Input::all());
     });
 
 //   Route::get('/facebook', function ()
