@@ -55,7 +55,7 @@
                     </select>
 
                 </div>
-                <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
+                <p class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</p>
                 <a class="btn--info" href="#" >Wish List</a>
             </div>
             <div class="grid__col--4" id="circles">
