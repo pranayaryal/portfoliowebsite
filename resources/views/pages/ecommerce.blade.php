@@ -61,8 +61,9 @@
                 <a class="btn--info" href="#" >Wish List</a>
             </div>
 
+
+            
         </form>
-        </div>
         <div class="grid__col--4" id="circles">
             <br><br>
             <p class="cartnumber">0</p>
