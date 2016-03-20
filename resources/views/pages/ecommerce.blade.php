@@ -58,11 +58,12 @@
 
                 </div>
             </div>
-        </form>
+
 
 
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
+        </form>
         </div>
         <div class="grid__col--4" id="circles">
             <br><br>
