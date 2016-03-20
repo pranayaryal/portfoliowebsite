@@ -39,6 +39,7 @@
         <div class="grid__col--4" id="circles">
             <br><br>
             <p class="cartnumber">0</p>
+            <span>Qty</span>
             <select>
                 <option value="1">1</option>
                 <option value="2">2</option>
