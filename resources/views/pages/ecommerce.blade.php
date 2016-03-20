@@ -20,6 +20,7 @@
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
             <p>Price: $50</p>
+
             <a class="btn--success" href="#" >Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
 
@@ -38,6 +39,12 @@
         <div class="grid__col--4" id="circles">
             <br><br>
             <p class="cartnumber">0</p>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="4">4</option>
+            </select>
             <p>Item in cart</p>
             <a class="btn--warning" href="#" id="checkout" data-value=[]>Checkout</a>
 
