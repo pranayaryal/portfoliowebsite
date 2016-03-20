@@ -19,9 +19,10 @@
             <a href="http://pranayaryal.github.io/drawing" target="_blank">
                 <img class="img--wrap" src="img/pic.png" alt="Avatar">
             </a>
-            <p>Price: $50</p>
-            <span>Qty</span>
-            <select>
+            <p style="display: inline-block;">Price: $50</p>
+            <span style="display: inline-block;"> </span>
+            <span style="display: inline-block;">Qty</span>
+            <select style="display: inline-block;">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="2">3</option>
