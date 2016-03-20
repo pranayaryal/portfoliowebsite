@@ -21,7 +21,6 @@
             </a>
             <div class="row">
                 <span style="display: inline-block;">Price: $50</span>
-
                 <span style="display: inline-block;">Qty</span>
                 <select style="display: inline-block;">
                     <option value="1">1</option>
@@ -29,8 +28,6 @@
                     <option value="2">3</option>
                     <option value="4">4</option>
                 </select>
-
-
             </div>
 
             <a class="btn--success" href="#" >Add to Cart</a>
