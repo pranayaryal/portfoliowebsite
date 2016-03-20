@@ -41,6 +41,7 @@
             <div class="row">
 
                 <p style="display: inline-block;">Price: $20</p>
+                <span></span>
                 <span style="display: inline-block;">Qty</span>
 
                     <select style="display: inline-block;" >
