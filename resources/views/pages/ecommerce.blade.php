@@ -30,26 +30,30 @@
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
-            <a class="btn--success" href="#" id="cartadd">Add to Cart</a>
+            <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
+            <input type="hidden" value="3">
             <a class="btn--info" href="#" >Wish List</a>
         </div>
         <div class="grid__col--4" id="circles">
             <br><br>
             <p class="cartnumber">0</p>
             <p>Item in cart</p>
-            <a class="btn--warning" href="#" id="checkout" >Checkout</a>
+            <a class="btn--warning" href="#" id="checkout" data-value=[]>Checkout</a>
+
         </div>
 
         <script>
             $('#checkout').hide();
             $('#cartnumber').hide();
             $('#cartadd').click(function (e) {
+                console.log($(this).data('id'));
                 e.preventDefault();
                 var text = $.trim($('.cartnumber').text());
                 var cartno = parseInt(text);
                 $('.cartnumber').html(++cartno);
                 $('#checkout').show();
                 $('.cartnumber').show();
+
 
 //
 
