@@ -21,9 +21,9 @@
             </a>
             <div class="row">
                 <p class="para" style="display: inline-block;">Price: $50</p>
-                <span style="display: inline-block;"> </span>
 
-                <div class="price-select">
+
+                <div class="para--price">
                     <span style="display: inline-block;">Qty</span>
                     <select style="display: inline-block;">
                         <option value="1">1</option>

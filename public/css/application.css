@@ -609,6 +609,10 @@ h2,
   }
 }
 
+.para--price {
+  margin-left: 0.9375em;
+}
+
 .headline-primary {
   margin-bottom: 1.6666666667em;
 }
