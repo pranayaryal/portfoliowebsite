@@ -42,12 +42,15 @@
 
                 <p>Price: $20</p>
                 <span style="display: inline-block;">Qty</span>
-                <select style="display: inline-block;">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="2">3</option>
-                    <option value="4">4</option>
-                </select>
+                <div class="select" style="display: inline-block;">
+                    <select style="display: inline-block;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
             </div>
 
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
