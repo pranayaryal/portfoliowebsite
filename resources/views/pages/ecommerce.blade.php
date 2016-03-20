@@ -30,8 +30,8 @@
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
+            <p>Price: 20</p>
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
-            <input type="hidden" value="3">
             <a class="btn--info" href="#" >Wish List</a>
         </div>
         <div class="grid__col--4" id="circles">
