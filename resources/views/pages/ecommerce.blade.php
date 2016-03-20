@@ -38,14 +38,17 @@
             <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
                 <img class="img--wrap" src="img/form.png" alt="Avatar">
             </a>
-            <p>Price: $20</p>
-            <span>Qty</span>
-            <select>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="2">3</option>
-                <option value="4">4</option>
-            </select>
+            <div class="row">
+                <p>Price: $20</p>
+                <span>Qty</span>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
             <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
             <a class="btn--info" href="#" >Wish List</a>
         </div>
