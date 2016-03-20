@@ -34,10 +34,8 @@
 
                 <a class="btn--success" href="#" >Add to Cart</a>
                 <a class="btn--info" href="#" >Wish List</a>
-
-
-
             </div>
+
             <div class="grid__col--4">
                 <p>Or this form I created?</p>
                 <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
@@ -60,18 +58,16 @@
                 <a class="btn--success" href="#" id="cartadd" data-value="3">Add to Cart</a>
                 <a class="btn--info" href="#" >Wish List</a>
             </div>
+            <div class="grid__col--4" id="circles">
+                <br><br>
+                <p class="cartnumber">0</p>
 
+                <p>Item in cart</p>
+                <a class="btn--warning" href="#" id="checkout" data-value=[]>Checkout</a>
 
-            
+            </div>
         </form>
-        <div class="grid__col--4" id="circles">
-            <br><br>
-            <p class="cartnumber">0</p>
 
-            <p>Item in cart</p>
-            <a class="btn--warning" href="#" id="checkout" data-value=[]>Checkout</a>
-
-        </div>
 
         <script>
             $('#checkout').hide();
