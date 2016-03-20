@@ -52,7 +52,8 @@ use App\Http\Flash;
 
     Route::post('/cart/add', function ()
     {
-        dd(\Input::all());
+        var_dump("Congratulations you clicked " . \Input::item);
+        
     });
 
 //   Route::get('/facebook', function ()
