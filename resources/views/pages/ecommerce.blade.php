@@ -23,7 +23,7 @@
                 <p class="para" style="display: inline-block;">Price: $50</p>
 
 
-                <div class="para--price">
+                <div>
                     <span style="display: inline-block;">Qty</span>
                     <select style="display: inline-block;">
                         <option value="1">1</option>
