@@ -50,6 +50,11 @@ use App\Http\Flash;
         return view('pages.payments');
     });
 
+    Route::post('/cart/add', function ()
+    {
+        dd('you are here');
+    });
+
 //   Route::get('/facebook', function ()
 //   {
 //       return view('pages.facebook');
