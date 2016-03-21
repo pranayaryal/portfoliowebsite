@@ -37,9 +37,9 @@ use App\Http\Flash;
 
 
 
-    Route::get('/ecommerce', function () {
-        return view('pages.ecommerce');
-    });
+    Route::get('/ecommerce', 'ProductsController@index');
+
+    Route::post('/ecommerce', 'ProductsController@store');
 
     Route::get('/blog2', function () {
         return view('pages.blog2');

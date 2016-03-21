@@ -14,71 +14,44 @@
 
 @section('content')
     <div class="grid">
-        <form action="/cart/add" method="post" id="checkoutform">
-            {{ csrf_field() }}
-            <div class="grid__col--4">
-                <p>I created this drawing app. Do you want to buy it?</p>
-                <a href="http://pranayaryal.github.io/drawing" target="_blank">
-                    <img class="img--wrap" src="img/pic.png" alt="Avatar">
-                </a>
-                <div class="row">
-                    <p style="display: inline-block;">Price: $50</p>
-                    <span style="display: inline-block;">Qty</span>
 
-                    <select style="display: inline-block;">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="2">3</option>
-                        <option value="4">4</option>
-                    </select>
+        {{--<div class="grid__col--6">--}}
+            {{--<form class="form" action="/ecommerce" method="post">--}}
+                {{--{{ csrf_field() }}--}}
+                {{--<label class="form__label{{ $errors->has('name') ? ' has-error' : '' }}" for="name" >Product Name:</label>--}}
+                {{--<input class="form__input" type="text" id="name" name="product_name" value="{{ old('product_name') }}"  required>--}}
+
+                {{--<label class="form__label{{ $errors->has('email') ? ' has-error' : '' }}" for="email">Product Price:</label>--}}
+                {{--<input class="form__input" type="text" id="price" name="price"  required>--}}
+
+
+                {{--<input class="btn--default" type="submit" value="Save">--}}
+            {{--</form>--}}
+        {{--</div>--}}
+
+
+        <div class="row">
+
+                @foreach ($products as $product)
+                <div class="grid__col--3">
+                    <p>{{ $product->product_name }}</p>
+                    <img class="img--wrap" src={{ $product->image_path }} alt="sample image">
+                    <p class="para">Price: ${{ $product->price }}</p>
+                    <a href="#">Add to Cart</a><br>
+                    <a href="#">Add to Wish List</a>
                 </div>
+                @endforeach
 
-                <button class="btn--success" href="#" id="firstitem" data-value="9">Add to Cart</button>
-                <button class="btn--info" href="#" >Wish List</button>
-            </div>
-
-            <div class="grid__col--4">
-                <p>Or this form I created?</p>
-                <a href="http://pranayaryal.github.io/HTMLform" target="_blank">
-                    <img class="img--wrap" src="img/form.png" alt="Avatar">
-                </a>
-                <div class="row">
-
-                    <p style="display: inline-block;">Price: $20</p>
-                    <span style="display: inline-block;"> </span>
-                    <span style="display: inline-block;">Qty</span>
-                    <select style="display: inline-block;" >
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="2">3</option>
-                        <option value="4">4</option>
-                    </select>
-
-                </div>
-                <button class="btn--success" href="/cart/add" id="seconditem" data-value="3">Add to Cart</button>
-                <button class="btn--info" href="/cart/add" >Wish List</button>
-            </div>
-            <div class="grid__col--4" id="circles">
-
-            </div>
-            <input type="hidden" value="" name="item" id="item">
-        </form>
+        </div>
 
 
-        <script>
-//
-            $("#firstitem, #seconditem").click(function (e) {
-                e.preventDefault();
-                var input = $('#item').val($(this).data('value'));
-                console.log(input);
-                $('#checkoutform').submit();
 
-//
-
-            });
-        </script>
 
 
     </div>
+    <div class="grid">
+        <p class="para">Note: Randomly generated names and price</p>
+    </div>
+
 
 @stop
