@@ -50,7 +50,7 @@
 
     </div>
     <div class="grid">
-        <p class="para">Note: Randomly generated names and price</p>
+        <p class="para">Note: Randomly generated names and price using Laravel's factory</p>
     </div>
 
 
