@@ -1,6 +1,4 @@
 
 ##Features of this website
 
----
-
-###This is nice
+1. This site is hosted on Digital Ocean
