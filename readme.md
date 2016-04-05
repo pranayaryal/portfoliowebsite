@@ -4,3 +4,5 @@
 1. This site is hosted on Digital Ocean on a Ubuntu droplet. I had to install composer there.
 2. It is built using the Laravel framework
 3. I push my code changes using ssh and git webhooks
+
+A good place to get a hang of the project would be to start from the routes file. https://github.com/pranayaryal/portfoliowebsite/blob/master/app/Http/routes.php
