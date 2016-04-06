@@ -14,7 +14,10 @@
 
 @section('content')
 
-    <h1>Starting a new website using ampps</h1>
+    <div class="grid">
+        <h1>Starting a new website using ampps</h1>
+    </div>
+
 
 
 @stop
