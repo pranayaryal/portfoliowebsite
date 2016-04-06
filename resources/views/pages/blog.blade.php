@@ -14,6 +14,7 @@
 
 @section('content')
 
+    <h1>Starting a new website using ampps</h1>
 
 
 @stop
