@@ -50,6 +50,8 @@ use App\Http\Flash;
         return view('pages.payments');
     });
 
+    Route::get('/cart/add/{id}', 'ProductsController@addToCart' );
+
     Route::post('/cart/add', function (Request $request)
     {
         var_dump("Congratulations you clicked " . \Input::get('item'));

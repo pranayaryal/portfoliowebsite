@@ -15,7 +15,8 @@
 @section('content')
 
     <div class="grid">
-        <h1>Starting a new website using ampps</h1>
+        <h2>Local web development using ampps</h2>
+        <p>Starting a new website can be quite tricky initially. I will mention a few steps which I have used</p>
     </div>
 
 

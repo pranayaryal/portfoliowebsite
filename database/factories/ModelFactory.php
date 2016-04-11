@@ -23,7 +23,11 @@ $factory->define(App\Product::class, function (Faker\Generator $faker) {
     return [
         'product_name' => $faker->name,
         'price' => $faker->randomNumber(),
-        'image_path' => 'img/sunburst.png'
+        'image_path' => 'img/sunburst.png',
+        'url' => function ()
+        {
+            return factory(App\Product::class)->createUrl();
+        }
     ];
 });
 

@@ -37,7 +37,7 @@
                     <p>{{ $product->product_name }}</p>
                     <img class="img--wrap" src={{ $product->image_path }} alt="sample image">
                     <p class="para">Price: ${{ $product->price }}</p>
-                    <a href="#">Add to Cart</a><br>
+                    <a href="/cart/add/{{$product->id}}">Add to Cart</a><br>
                     <a href="#">Add to Wish List</a>
                 </div>
                 @endforeach

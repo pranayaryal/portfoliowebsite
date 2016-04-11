@@ -27,6 +27,12 @@ class ProductsController extends Controller
       
         
         $products = Product::all();
+        foreach ($products as $product)
+        {
+            $product->createUrl();
+        }
+        
+
         return view('pages.ecommerce', ['products' => $products]);
     }
 
@@ -95,5 +101,12 @@ class ProductsController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function addToCart(Request $request, $id)
+    {
+        $product = Product::find($id);
+        $request->session()->push('products', $product);
+        dd($request->session()->all());
     }
 }
