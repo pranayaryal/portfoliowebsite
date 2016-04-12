@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Product;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Session;
 
 class ProductsController extends Controller
 {
@@ -105,8 +106,30 @@ class ProductsController extends Controller
 
     public function addToCart(Request $request, $id)
     {
+//        $request->session()->flush();
         $product = Product::find($id);
-        $request->session()->push('products', $product);
-        dd($request->session()->all());
+
+
+        Session::push('cart.items', $product);
+        $count = count(Session::get('cart.items'));
+        return view('pages.cartview', ['count' => $count]);
+
+    }
+
+    public function deleteItem(Request $request, $name)
+    {
+        $cart_items = $request->session()->get('cart.items');
+
+        foreach ($cart_items as $k=>$v)
+        {
+          if ($v->product_name == $name)
+          {
+             Session::forget('cart.items.' .$k);//thank you @connorvg@larachat
+           }
+        }
+
+
+        $count = count(Session::get('cart.items'));
+        return view('pages.cartview', ['count' => $count]);
     }
 }

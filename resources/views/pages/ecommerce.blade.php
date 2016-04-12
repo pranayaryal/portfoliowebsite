@@ -44,6 +44,12 @@
 
         </div>
 
+        {{--<div class="row">--}}
+            {{--@foreach(session()->get('cart.items') as $item)--}}
+                {{--{{$item->product_name . PHP_EOL}}--}}
+            {{--@endforeach--}}
+        {{--</div>--}}
+
 
 
 

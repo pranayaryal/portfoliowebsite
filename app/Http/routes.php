@@ -52,6 +52,8 @@ use App\Http\Flash;
 
     Route::get('/cart/add/{id}', 'ProductsController@addToCart' );
 
+    Route::get('/cart/delete/{name}', 'ProductsController@deleteItem');
+
     Route::post('/cart/add', function (Request $request)
     {
         var_dump("Congratulations you clicked " . \Input::get('item'));
