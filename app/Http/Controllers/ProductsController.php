@@ -16,6 +16,7 @@ class ProductsController extends Controller
     public function __construct()
     {
         $this->middleware('auth', ['only' => ['create']]);
+//        $this->middleware('auth');
     }
 
     /**
@@ -125,7 +126,7 @@ class ProductsController extends Controller
           if ($v->product_name == $name)
           {
              Session::forget('cart.items.' .$k);//thank you @connorvg@larachat
-           }
+          }
         }
 
 

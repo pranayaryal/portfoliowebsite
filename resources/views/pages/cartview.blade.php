@@ -10,7 +10,7 @@
         @foreach(Session::get('cart.items') as $item)
             <div class="row">
                 {{ $item->product_name }}
-                {{$item->price}}
+                    {{$item->price}}
                 <a href="/cart/delete/{{$item->product_name}}">Delete</a>
             </div>
         @endforeach
